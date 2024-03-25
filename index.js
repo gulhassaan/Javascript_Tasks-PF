@@ -254,7 +254,7 @@ if (isMultipleOf3Or7(numberToCheck)) {
 /**Task 30 */
 function checkAndRemoveScript(strvalue) {
   if (strvalue.length >= 5 && strvalue.substring(4, 10) === "Script") {
-      return strvalue.substring(0, 4) + strvalue.substring(10);
+      return strvalue.substring(0, 4);
   } else {
       return strvalue;
   }

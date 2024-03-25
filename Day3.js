@@ -210,7 +210,7 @@ try {
 console.log("TASK 02");
 try {
     let Obj;
-    console.log(Obj.property); // Accessing property of undefined object
+    console.log(Obj);
 } catch (error) {
     if (error instanceof TypeError) {
         console.log("Caught TypeError: The property is undefined.");
