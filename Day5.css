@@ -1,0 +1,89 @@
+.two{
+    margin-top: 40px;
+}
+.dropdown , #btn , #mouse , .submit_btn{
+    position: relative;
+    display: inline-block;
+    cursor: pointer;
+    background-color: orange;
+    padding: 10px 20px;
+    border-radius: 25px;
+    border: none;
+  }
+
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #a3a2a2;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    margin-left: 5rem;
+    border-radius: 15px;
+  }
+
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+
+  .dropdown-content a:hover {
+    background-color: orange;
+    border-radius: 15px;
+    font-weight: bolder;
+  }
+
+  .error-message {
+    color: red;
+    font-size: 24px;
+    font-weight: bolder;
+  }
+
+  .Task4{
+    background-color: white;
+    padding: 20px;
+    width: 20%;
+    border-radius: 20px;
+    box-shadow: 20px 20px 100px rgb(166, 166, 166);
+    margin: 10px;
+  }
+ 
+
+  #slideshow-container {
+    position: relative;
+    margin: auto;
+  }
+
+  .slideshow-image {
+    display: none;
+    width: 100%;
+  }
+
+  .prev, .next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    width: auto;
+    padding: 16px;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+  }
+
+  .next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+  }
+
+  .prev:hover, .next:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+  }
+
+  .prev {
+    left: 0;
+  }
